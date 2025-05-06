@@ -72,8 +72,8 @@ export const Bienvenue = () => {
           </p>
 
           <p className="text-justify leading-7 tracking-wide">
-            Découvrez nos <Link link="" text="produits" /> , &{" "}
-            <Link link="" text="services" /> , et notre engagement à vous
+            Découvrez nos <Link link="#" text="produits" /> , &{" "}
+            <Link link="#" text="services" /> , et notre engagement à vous
             fournir des solutions adaptées à vos défis industriels.
           </p>
         </div>
