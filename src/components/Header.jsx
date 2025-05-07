@@ -1,5 +1,6 @@
 import { IoIosArrowDown } from "react-icons/io"
 import { IoMenu } from "react-icons/io5"
+import { Link } from "react-router-dom"
 
 function Header(){
     return(
@@ -8,9 +9,9 @@ function Header(){
                 <img src="./img/logo_dmc.png" alt="" className="w-18 md:w-20 lg:w-24 xl:w-32"/>
                 <nav>
                     <ul className="hidden md:flex gap-4 lg:gap-8 text-white text-base xl:text-lg font-medium">
-                        <li className="">Accueil</li>
-                        <li className="flex gap-2 items-center">Solutions <IoIosArrowDown /> </li>
-                        <li className="flex gap-2 items-center">Secteurs <IoIosArrowDown /> </li>
+                        <li className=""> <Link to={'/'}>Accueil</Link> </li>
+                        <li className="flex gap-2 items-center"><Link to={'/solutions'}>Solutions</Link> <IoIosArrowDown /> </li>
+                        <li className="flex gap-2 items-center"><Link to={'/'}></Link>Secteurs <IoIosArrowDown /> </li>
                         <li className="flex gap-2 items-center">A propos <IoIosArrowDown /> </li>
                         <li className="">Contacts</li>
                     </ul>

@@ -1,15 +1,9 @@
-import Banner from './Banner'
-import { Footer } from './components/Footer'
-import Header from './Header'
-import { Bienvenue } from './home/Bienvenue'
+import Home from './Pages/Home'
 
 function App() {
     return(
       <div>
-        <Header/>
-        <Banner/>
-        <Bienvenue/>
-        <Footer/>
+        <Home/>
       </div>
     )
 }
