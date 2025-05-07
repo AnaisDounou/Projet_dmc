@@ -36,7 +36,7 @@ const Slider = () => {
                     key={index}
                     src={src}
                     alt={`Slide ${index + 1}`}
-                    className="min-h-[75vh] w-full object-cover object-top brightness-50"
+                    className="h-[75vh] lg:h-[90vh]  w-full object-cover object-top brightness-50"
                 />
            </div>
         ))}

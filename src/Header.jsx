@@ -3,7 +3,7 @@ import { IoMenu } from "react-icons/io5"
 
 function Header(){
     return(
-        <header className="max-w-[1440px] m-auto">
+        <header className="max-w-[1800px] m-auto">
             <div className="bg-[#1C4179] flex justify-between items-center px-6 md:px-16 lg:px-28 py-3">
                 <img src="./img/logo_dmc.png" alt="" className="w-18 md:w-20 lg:w-24 xl:w-32"/>
                 <nav>

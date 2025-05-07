@@ -4,7 +4,7 @@ import { Link } from "../components/Link";
 
 export const Bienvenue = () => {
   return (
-    <section className="max-w-[1440px] m-auto">
+    <section className="max-w-[1800px] m-auto">
       {/* Bienvenue */}
       <div className="m-6 my-16 md:m-16  lg:m-28 grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16 items-center">
         <div className="flex flex-col gap-4 lg:gap-8">
