@@ -57,11 +57,12 @@ export const Produit = () => {
         
         <img src="./img/produit_bas/26.png " alt="" />
 
-        <div>
+        <div className='my-12'>
             <h3 className='mt-6 md:mx-16 lg:mx-28 text-xl font-bold text-[#1C4179]'>Gestion de projets et commandes spéciales</h3>
-            <p className='mx-6 md:mx-16 lg:mx-28 text-justify'></p>
+            <p className='mx-6 md:mx-16 lg:mx-28 text-justify'>
             Nous sommes votre partenaire privilégié pour assurer la fourniture des équipements essentiels à la réussite de vos projets d'envergure. Grâce à notre expertise approfondie, nous vous accompagnons dans :
-            <ul className='mx-6 md:mx-16 lg:mx-28 text-justify'>
+            </p>
+            <ul className='mx-6 md:mx-16 lg:mx-28 text-justify list-disc list-inside px-8'>
                 <li>La planification des expéditions, pour garantir une livraison conforme à vos exigences opérationnelles.
                 </li>
                 <li>La coordination logistique, en travaillant avec des partenaires fiables pour optimiser chaque étape de la chaîne d’approvisionnement.</li>
@@ -69,12 +70,17 @@ export const Produit = () => {
             </ul>
         </div>
 
-        <img src="./img/produit_bas/ACIERS 1.png " alt="" />
-        <img src="./img/produit_bas/INSTRUM 2 1.png " alt="" />
-        <img src="./img/produit_bas/INSTRUM 3 1.png " alt="" />
-        <img src="./img/produit_bas/PI7CES DETACHEES.png" alt="" />
+        <div className='grid grid-cols-4 gap-2 mx-6 md:mx-16 lg:mx-28'>
+            <img className='w-full h-full object-cover' src="./img/produit_bas/ACIERS 1.png " alt="" />
+            <img className='w-full h-full object-cover' src="./img/produit_bas/INSTRUM 2 1.png " alt="" />
+            <img className='w-full h-full object-cover' src="./img/produit_bas/INSTRUM 3 1.png " alt="" />
+            <img className='w-full h-full object-cover' src="./img/produit_bas/PI7CES DETACHEES.png" alt="" />
+        </div>
 
-        <img src="./img/produit_bas/Assitance technique 3.png " alt="" />
+        <div className='my-12'>
+            <img className='w-[250px] m-auto mb-4' src="public/img/icons/EMERGENCY BIS 3.png" alt="" />
+            <p className='mx-6 md:mx-16 lg:mx-28 text-center'>Nos équipes sont formées pour réagir rapidement à vos besoins urgents. De l'identification de la solution au déploiement, nous mettons tout en œuvre pour répondre aux urgences et minimiser les interruptions de vos activités</p>
+        </div>
         
     </section>
   )
