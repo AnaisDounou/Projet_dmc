@@ -20,7 +20,7 @@ function Header() {
                         <li><Link to="/">Accueil</Link></li>
                         <li className="flex gap-2 items-center"><Link to="/solutions">Solutions</Link> <IoIosArrowDown /></li>
                         <li className="flex gap-2 items-center"><Link to="/secteurs">Secteurs</Link> <IoIosArrowDown /></li>
-                        <li className="flex gap-2 items-center">A propos <IoIosArrowDown /></li>
+                        <li className="flex gap-2 items-center"><Link to="/a_propos">A propos</Link> <IoIosArrowDown /></li>
                         <li>Contacts</li>
                     </ul>
 
@@ -39,7 +39,7 @@ function Header() {
                     <li><Link to="/" onClick={toggleMenu}>Accueil</Link></li>
                     <li className="flex gap-2 items-center"><Link to="/solutions" onClick={toggleMenu}>Solutions</Link> <IoIosArrowDown /></li>
                     <li className="flex gap-2 items-center"><Link to="/secteurs" onClick={toggleMenu}>Secteurs</Link> <IoIosArrowDown /></li>
-                    <li className="flex gap-2 items-center">A propos <IoIosArrowDown /></li>
+                    <li className="flex gap-2 items-center"><Link to="/a_propos">A propos</Link> <IoIosArrowDown /></li>
                     <li><Link to="/" onClick={toggleMenu}>Contacts</Link></li>
                 </ul>
             </div>

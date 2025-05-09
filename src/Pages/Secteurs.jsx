@@ -42,11 +42,6 @@ export const Secteurs = () => {
           </div>
         </section>
 
-        
-        {/*  
-         
-         
-         */}
         <Footer/>
     </div>
   )
