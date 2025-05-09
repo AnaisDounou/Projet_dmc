@@ -19,7 +19,7 @@ function Header() {
                     <ul className="hidden md:flex gap-4 lg:gap-8 text-white text-base xl:text-lg font-medium">
                         <li><Link to="/">Accueil</Link></li>
                         <li className="flex gap-2 items-center"><Link to="/solutions">Solutions</Link> <IoIosArrowDown /></li>
-                        <li className="flex gap-2 items-center"><Link to="/">Secteurs</Link> <IoIosArrowDown /></li>
+                        <li className="flex gap-2 items-center"><Link to="/secteurs">Secteurs</Link> <IoIosArrowDown /></li>
                         <li className="flex gap-2 items-center">A propos <IoIosArrowDown /></li>
                         <li>Contacts</li>
                     </ul>
@@ -38,7 +38,7 @@ function Header() {
                 <ul className="flex flex-col gap-5 lg:gap-8 text-white text-base xl:text-lg font-medium">
                     <li><Link to="/" onClick={toggleMenu}>Accueil</Link></li>
                     <li className="flex gap-2 items-center"><Link to="/solutions" onClick={toggleMenu}>Solutions</Link> <IoIosArrowDown /></li>
-                    <li className="flex gap-2 items-center"><Link to="/" onClick={toggleMenu}>Secteurs</Link> <IoIosArrowDown /></li>
+                    <li className="flex gap-2 items-center"><Link to="/secteurs" onClick={toggleMenu}>Secteurs</Link> <IoIosArrowDown /></li>
                     <li className="flex gap-2 items-center">A propos <IoIosArrowDown /></li>
                     <li><Link to="/" onClick={toggleMenu}>Contacts</Link></li>
                 </ul>

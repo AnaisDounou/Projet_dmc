@@ -4,10 +4,12 @@ import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Solutions from './Pages/Solutions.jsx'
+import { Secteurs } from './Pages/Secteurs.jsx'
 
 const router = createBrowserRouter([
   {path:"/",element:<App/>},
   {path:"/solutions",element:<Solutions />},
+  {path:"/secteurs",element:<Secteurs />},
   {path:"*",element:<App />},
 ]);
 
