@@ -21,7 +21,7 @@ function Header() {
                         <li className="flex gap-2 items-center"><Link to="/solutions">Solutions</Link> <IoIosArrowDown /></li>
                         <li className="flex gap-2 items-center"><Link to="/secteurs">Secteurs</Link> <IoIosArrowDown /></li>
                         <li className="flex gap-2 items-center"><Link to="/a_propos">A propos</Link> <IoIosArrowDown /></li>
-                        <li>Contacts</li>
+                        <li><Link to="/contacts">Contacts</Link></li>
                     </ul>
 
                     {/* Hamburger & Close Icons */}
@@ -40,7 +40,7 @@ function Header() {
                     <li className="flex gap-2 items-center"><Link to="/solutions" onClick={toggleMenu}>Solutions</Link> <IoIosArrowDown /></li>
                     <li className="flex gap-2 items-center"><Link to="/secteurs" onClick={toggleMenu}>Secteurs</Link> <IoIosArrowDown /></li>
                     <li className="flex gap-2 items-center"><Link to="/a_propos">A propos</Link> <IoIosArrowDown /></li>
-                    <li><Link to="/" onClick={toggleMenu}>Contacts</Link></li>
+                    <li><Link to="/contacts" onClick={toggleMenu}>Contacts</Link></li>
                 </ul>
             </div>
         </header>
