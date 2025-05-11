@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Services = () => {
   return (
-    <section className='max-w-[1800px] m-auto'>
+    <section id='#services' className='max-w-[1800px] m-auto'>
         <h2 className='bg-[#1C4179] text-[#F49F1E] text-2xl xl:text-3xl font-black text-center uppercase w-full p-8'>Nos Services</h2>
 
         <p className='m-6 md:my-12 md:mx-16 lg:mx-28 text-2xl lg:text-3xl font-black text-[#1C4179]'>Notre expertise couvre certains domaines clés pour accompagner votre développement et optimiser vos opérations</p>

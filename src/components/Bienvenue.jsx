@@ -19,9 +19,9 @@ export const Bienvenue = () => {
             Nous proposons bien plus qu’un service classique
             d’approvisionnement.
           </p>
-          <ButtonMain text="En savoir plus sur nous" link="#" />
+          <ButtonMain text="En savoir plus sur nous" link="/a_propos" />
         </div>
-        <img src="./img/Bienvenue.png" alt="" className="" />
+        <img src="./img/Bienvenue.png" alt="Bienvenue a dmc" className="" />
       </div>
 
       {/* Misson */}
@@ -72,8 +72,8 @@ export const Bienvenue = () => {
           </p>
 
           <p className="text-justify leading-7 tracking-wide xl:text-xl/10">
-            Découvrez nos <Link link="#" text="produits" /> , &{" "}
-            <Link link="#" text="services" /> , et notre engagement à vous
+            Découvrez nos <Link link="/solutions" text="produits" /> , &{" "}
+            <Link link="/solutions#services" text="services" /> , et notre engagement à vous
             fournir des solutions adaptées à vos défis industriels.
           </p>
         </div>
@@ -94,7 +94,7 @@ export const Bienvenue = () => {
             <li>Engagement envers la qualité et l’innovation.</li>
             <li>Réactivité et gestion des urgences.</li>
           </ul>
-          <ButtonMain text="Découvrir nos services" link="#" />
+          <ButtonMain text="Découvrir nos services" link="/solutions#services" />
         </div>
       </div>
     </section>

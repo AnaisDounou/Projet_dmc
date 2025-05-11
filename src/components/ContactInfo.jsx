@@ -37,18 +37,53 @@ export const ContactInfo = () => {
         {/*  */}
 
         <div className='bg-[#1C4179] m-6 md:my-12 md:mx-16 lg:mx-28 p-6 lg:p-12 text-white grid md:grid-cols-3 gap-8'>
-            <div className='col-span-2 md:col-span-1 mt-4 md:mt-0'>
+            {/* <div className='col-span-2 md:col-span-1 mt-4 md:mt-0'>
                 <span className='text-xl font-bold block mb-3'>Contacts</span>
                 <ul className='flex flex-col gap-1'>
                     <li className='break-keep'>+33 (0)7 88 31 43 80</li>
                     <li>contact@dmcconsulting.net</li>
                 </ul>
-                <br /><hr className='w-4/5'/>
+                
                 <span className='text-xl font-bold block mb-3 mt-5'>Adresse</span>
                 <ul className='flex flex-col gap-1'>
                     <li>15 Rue Malher 75004 Paris</li>
                 </ul>
-            </div>
+            </div> */}
+            <div className="col-span-2 md:col-span-1 mt-4 md:mt-0">
+            <span className="text-xl font-bold block mb-3">Contacts</span>
+            <ul className="flex flex-col gap-1">
+              <li className="break-keep">
+                <a
+                  href="tel:+33788314380"
+                  className="hover:underline text-white"
+                >
+                  +33 (0)7 88 31 43 80
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:contact@dmcconsulting.net"
+                  className="hover:underline text-white"
+                >
+                  contact@dmcconsulting.net
+                </a>
+              </li>
+            </ul>
+            <br /><hr className='w-4/5'/>
+            <span className="text-xl font-bold block mb-3 mt-5">Adresse</span>
+            <ul className="flex flex-col gap-1">
+              <li>
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=15+Rue+Malher+75004+Paris"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline text-white"
+                >
+                  15 Rue Malher 75004 Paris
+                </a>
+              </li>
+            </ul>
+          </div>
             <div className='col-span-2'>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d928.1102074968677!2d2.3606117461131295!3d48.85645439265621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e0203415555%3A0xdc1dd686570e0121!2s15%20Rue%20Malher%2C%2075004%20Paris%2C%20France!5e0!3m2!1sen!2sde!4v1746919599555!5m2!1sen!2sde" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='w-full h-96'></iframe>
             </div>
