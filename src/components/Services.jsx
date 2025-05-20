@@ -12,12 +12,12 @@ export const Services = () => {
 
         <div className='m-6 md:my-12 md:mx-16 lg:mx-28'>
             <div className='grid md:grid-cols-2 gap-4'>
-                <div className='bg-[#F49F1E] text-white text-center px-6 py-12 h-fit flex justify-center items-center flex-col h-full'>
+                <div className='bg-[#F49F1E] text-white text-center px-6 py-12 flex justify-center items-center flex-col h-full'>
                     <img className='w-28' src="./img/icons/airplane-plane-flight 1.png" alt="" />
                     <h4 className='text-xl xl:text-2xl font-bold'>Achats et supply chain</h4>
                     <p className='text-base/7 xl:text-lg'>Analyse et amélioration de vos processus pour une gestion efficace des flux logistiques, une réduction des coûts et une optimisation des délais.</p>
                 </div>
-                <div className='bg-[#F49F1E] text-white text-center px-6 py-12 h-fit flex justify-center items-center flex-col h-full'>
+                <div className='bg-[#F49F1E] text-white text-center px-6 py-12 flex justify-center items-center flex-col h-full'>
                     <img className='w-28'  src="./img/icons/Business Finance Corporate.png" alt="" />
                     <h4 className='text-xl xl:text-2xl font-bold'>Gestion des stocks et approvisionnements</h4>
                     <p className='text-base/7 xl:text-lg'>Mise en place de solutions sur mesure afin de garantir la disponibilité et la distribution des équipements critiques tout en minimisant les surstocks et les ruptures.</p>

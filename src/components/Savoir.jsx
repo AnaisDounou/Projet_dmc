@@ -38,7 +38,14 @@ export const Savoir = () => {
         <p className='m-6 md:my-16 md:mx-16 lg:mx-28 text-xl lg:text-3xl font-black text-[#1C4179] text-center'>Avec DMC CONSULTING, vous bénéficiez d’un partenaire de confiance, fort d’une vision globale et d’une capacité d’exécution locale, pour construire des solutions pérennes et créatrices de valeur dans un environnement industriel en constante évolution.</p>
 
         <h2 className='bg-[#1C4179] text-[#F49F1E] text-2xl xl:text-3xl font-black text-center uppercase w-full p-8 lg:p-12'>NOS ENGAGEMENTS</h2>
-        <img src="./img/savoir_faire/Frame 132.png" alt="" />
+        <div style={{
+            backgroundImage: 'url("./img/savoir_faire/pipeline-8838496_1280 2.png")',
+            backgroundSize: 'cover', // optional
+            backgroundPosition: 'center', // optional
+        }}
+        className="w-full p-8">
+            <img className='md:h-[96vh] w-full m-auto my-2 object-contain ' src="./img/savoir_faire/Group 11.png" alt="" />
+        </div>
     </div>
   )
 }

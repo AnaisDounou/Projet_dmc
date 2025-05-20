@@ -1,4 +1,6 @@
 import React from 'react'
+import { ImgScroll } from './ImgScroll'
+import { LogoScroll } from './LogoScroll'
 
 export const Produit = () => {
   return (
@@ -9,12 +11,16 @@ export const Produit = () => {
         <h3 className='mx-6 mt-6 md:mx-16 lg:mx-28 text-xl xl:text-2xl font-bold text-[#1C4179]'>Equipements et fournitures industrielles :</h3>
         <p className='mx-6 md:mx-16 lg:mx-28 text-justify xl:text-lg'>Nous fournissons une vaste sélection d’équipements industriels de haute qualité, adaptés à tous les secteurs d’activité. Que vous opériez dans les secteurs des industries extractives ou de tout autres industries, nos produits répondent aux normes les plus rigoureuses pour assurer la performance de vos opérations et la durabilité de vos installations.</p>
 
-        <div className='mx-6 md:mx-16 lg:mx-28 grid grid-cols-2 md:grid-cols-5 items-center'>
+        {/* <div className='mx-6 md:mx-16 lg:mx-28 grid grid-cols-2 md:grid-cols-5 items-center'>
            <img className='object-contain h-3/5 w-fit m-auto' src="./img/produit/DISJONCTEURS 1.png" alt="" /> 
            <img className='object-contain h-3/5 w-fit m-auto' src="./img/produit/VANNE GUILLOTINE.png" alt="" /> 
            <img className='object-contain h-3/5 w-fit m-auto' src="./img/produit/EPI COMBI.png" alt="" /> 
            <img className='object-contain h-3/5 w-fit m-auto' src="./img/produit/ADVANCE GEARBOX.png" alt="" /> 
            <img className='object-contain h-2/5 col-span-2 md:col-span-1 w-fit m-auto' src="./img/produit/MARINE gps.png" alt="" /> 
+        </div> */}
+
+        <div className="mt-16">
+            <ImgScroll/>
         </div>
 
         <div className='text-xl md:text-2xl xl:text-3xl text-center font-bold text-[#1C4179] m-6 md:m-12'>
@@ -30,7 +36,7 @@ export const Produit = () => {
             Autres...
         </div>
 
-        <div className='flex flex-wrap gap-8 mx-6 md:mx-16 lg:mx-28 justify-center items-center'>
+        {/* <div className='flex flex-wrap gap-8 mx-6 md:mx-16 lg:mx-28 justify-center items-center'>
             <img className='object-contain onject-center h-[40px]' src="./img/logos/ABB 1.png" alt="" /> 
             <img className='object-contain onject-center h-[80px]' src="./img/logos/air torque 1.png" alt="" /> 
             <img className='object-contain onject-center h-[80px]' src="./img/logos/Alfagomma 1.png" alt="" /> 
@@ -46,6 +52,10 @@ export const Produit = () => {
             <img className='object-contain onject-center h-[80px]' src="./img/logos/Castolin 1.png" alt="" /> 
             <img className='object-contain onject-center h-[80px]' src="./img/logos/Caterpillar 1.png" alt="" /> 
             <img className='object-contain onject-center h-[80px]' src="./img/logos/Chockfast 1.png" alt="" /> 
+        </div> */}
+
+        <div className="mt-16">
+            <LogoScroll/>
         </div>
 
 

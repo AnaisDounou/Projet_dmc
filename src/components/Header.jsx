@@ -12,7 +12,7 @@ function Header() {
     };
 
     const navLinkClass = ({ isActive }) =>
-        `transition duration-150 ${isActive ? "text-yellow-300 underline" : "text-white"}`;
+        `transition duration-150 ${isActive ? "text-[#F49F1E] underline" : "text-white"}`;
 
     return (
         <header className="max-w-[1800px] m-auto">
@@ -20,20 +20,20 @@ function Header() {
                 <img src="./img/logo_dmc.png" alt="Logo" className="w-18 md:w-20 lg:w-24 xl:w-32" />
                 <nav className="flex items-center">
                     <ul className="hidden md:flex gap-4 lg:gap-8 text-base xl:text-lg font-medium">
-                        <li><NavLink to="/" className={navLinkClass}>Accueil</NavLink></li>
-                        <li className="flex gap-2 items-center">
+                        <li className="hover:underline"><NavLink to="/" className={navLinkClass}>Accueil</NavLink></li>
+                        <li className="flex gap-2 items-center hover:underline">
                             <NavLink to="/solutions" className={navLinkClass}>Solutions</NavLink>
                             <IoIosArrowDown className="text-white" />
                         </li>
-                        <li className="flex gap-2 items-center">
+                        <li className="flex gap-2 items-center hover:underline">
                             <NavLink to="/secteurs" className={navLinkClass}>Secteurs</NavLink>
                             <IoIosArrowDown className="text-white" />
                         </li>
-                        <li className="flex gap-2 items-center">
+                        <li className="flex gap-2 items-center hover:underline">
                             <NavLink to="/a_propos" className={navLinkClass}>A propos</NavLink>
                             <IoIosArrowDown className="text-white" />
                         </li>
-                        <li><NavLink to="/contacts" className={navLinkClass}>Contacts</NavLink></li>
+                        <li className="hover:underline"><NavLink to="/contacts" className={navLinkClass}>Contacts</NavLink></li>
                     </ul>
 
                     {/* Hamburger & Close Icons */}
