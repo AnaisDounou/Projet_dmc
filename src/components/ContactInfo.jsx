@@ -11,7 +11,7 @@ export const ContactInfo = () => {
         <div className='m-6 md:my-12 md:mx-16 lg:mx-28 grid md:grid-cols-2 gap-4 lg:gap-8'>
             {/* contact form */}
             <div className='shadow-md rounded-xl border border-gray-100 p-4 lg:p-12'>
-                <form className='flex justify-between gap-4 flex-col h-full' action="">
+                <form className='flex gap-4 flex-col h-fit' action="">
                     <div>
                         <label className='hidden' htmlFor="Nom">Nom</label>
                         <input className='px-8 py-4 bg-[#FCE2BB] rounded-lg w-full placeholder:text-gray-600 outline-hidden' type="text" name="Nom" id="Nom" placeholder='Nom' />
@@ -35,7 +35,7 @@ export const ContactInfo = () => {
                     <input className='px-8 py-4 bg-[#F49F1E] rounded-lg w-full text-white font-bold'  type="submit" value="Envoyer" />
                 </form>
             </div>
-            <img className='rounded-xl object-cover h-full' src="./img/pipeline-8838496_1280 1.png" alt="" />
+            <img className='rounded-xl object-cover w-full' src="./img/pipeline-8838496_1280 1.png" alt="" />
         </div>
 
         {/*  */}
