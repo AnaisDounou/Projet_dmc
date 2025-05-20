@@ -28,6 +28,10 @@ export const ContactInfo = () => {
                         <label className='hidden' htmlFor="Message">Message</label>
                         <textarea className='px-8 py-4 bg-[#FCE2BB] rounded-lg w-full placeholder:text-gray-600 h-40 outline-hidden'  name="Message" id="Message" placeholder='Message'></textarea>
                     </div>
+                    <div className='px-8 bg-[#FCE2BB] rounded-lg w-full flex items-center'>
+                        <label className='hidden' htmlFor="File">File</label>
+                        <input className='py-4 placeholder:text-gray-600 outline-hidden' type='file'  name="File" id="File" placeholder='File'/>
+                    </div>
                     <input className='px-8 py-4 bg-[#F49F1E] rounded-lg w-full text-white font-bold'  type="submit" value="Envoyer" />
                 </form>
             </div>

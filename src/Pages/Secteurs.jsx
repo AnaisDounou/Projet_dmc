@@ -109,9 +109,9 @@ export const Secteurs = () => {
       {/* Modal  style={{ backgroundImage: 'url(${modalData[openModal].img})', backgroundSize: 'cover', backgroundPosition: 'center',}}*/}
       {openModal && (
         <div className="fixed top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.8)] bg-opacity-50 flex items-center justify-center z-50">
-          <div className="lg:py-20 w-full lg:w-3/5 h-full lg:h-4/5">
-            <img src={modalData[openModal].img} alt={modalData[openModal].img} className='object-cover lg:w-[60%] lg:h-[80%] absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]' />
-            <div className="bg-[rgba(225,225,225,0.8)] w-fit mx-auto p-6 lg:p-16 shadow-xl relative">
+          <div className="lg:py-20 w-full lg:w-3/5 h-full lg:h-4/5 relative">
+            <img src={modalData[openModal].img} alt={modalData[openModal].img} className='object-cover lg:w-[60%] lg:h-[80%] relative top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]' />
+            <div className="bg-[rgba(225,225,225,0.8)] w-fit mx-auto p-6 shadow-xl absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
               <button onClick={handleClose} className="absolute top-2 right-6 text-[#1C4179] text-4xl font-semibold">&times;</button>
               <h2 className="text-xl font-bold mb-4 text-[#1C4179]">{modalData[openModal].title}</h2>
               <ul className="list-disc list-inside space-y-1 text-[#1C4179] font-bold lg:text-xl">
