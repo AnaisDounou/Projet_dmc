@@ -10,8 +10,8 @@ export const ContactInfo = () => {
 
         <div className='m-6 md:my-12 md:mx-16 lg:mx-28 grid md:grid-cols-2 gap-4 lg:gap-8'>
             {/* contact form */}
-            <div className='shadow-md rounded-xl border border-gray-100 p-4 lg:p-12'>
-                <form className='flex gap-4 flex-col h-fit' action="">
+            <div className='shadow-md rounded-xl border border-gray-100 p-4 lg:p-12 flex justify-center items-center w-full'>
+                <form className='flex gap-4 flex-col h-fit w-full' action="">
                     <div>
                         <label className='hidden' htmlFor="Nom">Nom</label>
                         <input className='px-8 py-4 bg-[#FCE2BB] rounded-lg w-full placeholder:text-gray-600 outline-hidden' type="text" name="Nom" id="Nom" placeholder='Nom' />
