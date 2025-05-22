@@ -1,6 +1,13 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
 export const ContactInfo = () => {
+
+  const fileInputRef = useRef(null);
+  
+  const handleClick = () => {
+    fileInputRef.current.click(); // Trigger the hidden input
+  };
+
   return (
     <section>
         <h2 className='bg-[#1C4179] text-[#F49F1E] text-2xl xl:text-3xl font-black text-center uppercase w-full p-8'>CONTACTEZ NOUS</h2>
@@ -10,8 +17,8 @@ export const ContactInfo = () => {
 
         <div className='m-6 md:my-12 md:mx-16 lg:mx-28 grid md:grid-cols-2 gap-4 lg:gap-8'>
             {/* contact form */}
-            <div className='shadow-md rounded-xl border border-gray-100 p-4 lg:p-12 flex justify-center items-center w-full'>
-                <form className='flex gap-4 flex-col h-fit w-full' action="">
+            <div className='shadow-md rounded-xl border border-gray-100 p-4  lg:p-12 flex justify-center items-center w-full'>
+                <form className='flex gap-4 flex-col w-full h-full' action="">
                     <div>
                         <label className='hidden' htmlFor="Nom">Nom</label>
                         <input className='px-8 py-4 bg-[#FCE2BB] rounded-lg w-full placeholder:text-gray-600 outline-hidden' type="text" name="Nom" id="Nom" placeholder='Nom' />
@@ -28,14 +35,17 @@ export const ContactInfo = () => {
                         <label className='hidden' htmlFor="Message">Message</label>
                         <textarea className='px-8 py-4 bg-[#FCE2BB] rounded-lg w-full placeholder:text-gray-600 h-40 outline-hidden'  name="Message" id="Message" placeholder='Message'></textarea>
                     </div>
-                    <div className='px-8 bg-[#FCE2BB] rounded-lg w-full flex items-center'>
-                        <label className='hidden' htmlFor="File">File</label>
-                        <input className='py-4 placeholder:text-gray-600 outline-hidden' type='file'  name="File" id="File" placeholder='File'/>
+                    {/* file input */}
+                    <div className="flex flex-wrap items-center gap-4">
+                      <input ref={fileInputRef} type="file" name="File" id="File" className="hidden" />
+                      <button type="button" onClick={handleClick} className="px-4 py-2 bg-[#FCE2BB] font-bold text-gray-600 rounded duration-75 hover:bg-[#F49F1E] hover:text-white" > Upload File </button>
+                      <span>{fileInputRef.current?.files?.[0]?.name || "No file selected"}</span>
                     </div>
-                    <input className='px-8 py-4 bg-[#F49F1E] rounded-lg w-full text-white font-bold'  type="submit" value="Envoyer" />
+                    {/*  */}
+                    <input className='px-8 py-4 bg-[#F49F1E] rounded-lg w-full text-white font-bold hover:opacity-80'  type="submit" value="Envoyer" />
                 </form>
             </div>
-            <img className='rounded-xl object-cover w-full' src="./img/pipeline-8838496_1280 1.png" alt="" />
+            <img className='rounded-xl object-cover w-full h-full' src="./img/pipeline-8838496_1280 1.png" alt="" />
         </div>
 
         {/*  */}
