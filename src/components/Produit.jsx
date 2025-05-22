@@ -4,7 +4,7 @@ import { LogoScroll } from './LogoScroll'
 
 export const Produit = () => {
   return (
-    <section className='max-w-[1800px] m-auto'>
+    <section className='max-w-[2560px] m-auto'>
         <h2 className='bg-[#1C4179] text-[#F49F1E] text-2xl xl:text-3xl font-black text-center uppercase w-full p-8'>Nos Produits</h2>
         <p className='m-6 md:my-12 md:mx-16 lg:mx-28 text-2xl lg:text-3xl font-black text-[#1C4179]'>Nous proposons une gamme de solutions conçues pour répondre aux exigences d’environnements industriels complexes et exigeant.</p>
         
@@ -12,11 +12,11 @@ export const Produit = () => {
         <p className='mx-6 md:mx-16 lg:mx-28 text-justify xl:text-lg'>Nous fournissons une vaste sélection d’équipements industriels de haute qualité, adaptés à tous les secteurs d’activité. Que vous opériez dans les secteurs des industries extractives ou de tout autres industries, nos produits répondent aux normes les plus rigoureuses pour assurer la performance de vos opérations et la durabilité de vos installations.</p>
 
         {/* <div className='mx-6 md:mx-16 lg:mx-28 grid grid-cols-2 md:grid-cols-5 items-center'>
-           <img className='object-contain h-3/5 w-fit m-auto' src="./img/produit/DISJONCTEURS 1.png" alt="" /> 
-           <img className='object-contain h-3/5 w-fit m-auto' src="./img/produit/VANNE GUILLOTINE.png" alt="" /> 
-           <img className='object-contain h-3/5 w-fit m-auto' src="./img/produit/EPI COMBI.png" alt="" /> 
-           <img className='object-contain h-3/5 w-fit m-auto' src="./img/produit/ADVANCE GEARBOX.png" alt="" /> 
-           <img className='object-contain h-2/5 col-span-2 md:col-span-1 w-fit m-auto' src="./img/produit/MARINE gps.png" alt="" /> 
+           <img loading="lazy" className='object-contain h-3/5 w-fit m-auto' src="./img/produit/DISJONCTEURS 1.png" alt="" /> 
+           <img loading="lazy" className='object-contain h-3/5 w-fit m-auto' src="./img/produit/VANNE GUILLOTINE.png" alt="" /> 
+           <img loading="lazy" className='object-contain h-3/5 w-fit m-auto' src="./img/produit/EPI COMBI.png" alt="" /> 
+           <img loading="lazy" className='object-contain h-3/5 w-fit m-auto' src="./img/produit/ADVANCE GEARBOX.png" alt="" /> 
+           <img loading="lazy" className='object-contain h-2/5 col-span-2 md:col-span-1 w-fit m-auto' src="./img/produit/MARINE gps.png" alt="" /> 
         </div> */}
 
         <div className="mt-16">
@@ -37,21 +37,21 @@ export const Produit = () => {
         </div>
 
         {/* <div className='flex flex-wrap gap-8 mx-6 md:mx-16 lg:mx-28 justify-center items-center'>
-            <img className='object-contain onject-center h-[40px]' src="./img/logos/ABB 1.png" alt="" /> 
-            <img className='object-contain onject-center h-[80px]' src="./img/logos/air torque 1.png" alt="" /> 
-            <img className='object-contain onject-center h-[80px]' src="./img/logos/Alfagomma 1.png" alt="" /> 
-            <img className='object-contain onject-center h-[80px]' src="./img/logos/Atlas Copco 1.png" alt="" /> 
-            <img className='object-contain onject-center h-[80px]' src="./img/logos/Babcock Wanson 1.png" alt="" /> 
-            <img className='object-contain onject-center h-[80px]' src="./img/logos/Bauer 1.png" alt="" /> 
-            <img className='object-contain onject-center h-[80px]' src="./img/logos/Bene Inox 1.png" alt="" /> 
-            <img className='object-contain onject-center h-[80px]' src="./img/logos/Benkan 1.png" alt="" /> 
-            <img className='object-contain onject-center h-[80px]' src="./img/logos/Bray 1.png" alt="" /> 
-            <img className='object-contain onject-center h-[80px]' src="./img/logos/Bvalve 1.png" alt="" /> 
-            <img className='object-contain onject-center h-[80px]' src="./img/logos/Demag 1.png" alt="" /> 
-            <img className='object-contain onject-center h-[80px]' src="./img/logos/Dupont 1.png" alt="" /> 
-            <img className='object-contain onject-center h-[80px]' src="./img/logos/Castolin 1.png" alt="" /> 
-            <img className='object-contain onject-center h-[80px]' src="./img/logos/Caterpillar 1.png" alt="" /> 
-            <img className='object-contain onject-center h-[80px]' src="./img/logos/Chockfast 1.png" alt="" /> 
+            <img loading="lazy" className='object-contain onject-center h-[40px]' src="./img/logos/ABB 1.png" alt="" /> 
+            <img loading="lazy" className='object-contain onject-center h-[80px]' src="./img/logos/air torque 1.png" alt="" /> 
+            <img loading="lazy" className='object-contain onject-center h-[80px]' src="./img/logos/Alfagomma 1.png" alt="" /> 
+            <img loading="lazy" className='object-contain onject-center h-[80px]' src="./img/logos/Atlas Copco 1.png" alt="" /> 
+            <img loading="lazy" className='object-contain onject-center h-[80px]' src="./img/logos/Babcock Wanson 1.png" alt="" /> 
+            <img loading="lazy" className='object-contain onject-center h-[80px]' src="./img/logos/Bauer 1.png" alt="" /> 
+            <img loading="lazy" className='object-contain onject-center h-[80px]' src="./img/logos/Bene Inox 1.png" alt="" /> 
+            <img loading="lazy" className='object-contain onject-center h-[80px]' src="./img/logos/Benkan 1.png" alt="" /> 
+            <img loading="lazy" className='object-contain onject-center h-[80px]' src="./img/logos/Bray 1.png" alt="" /> 
+            <img loading="lazy" className='object-contain onject-center h-[80px]' src="./img/logos/Bvalve 1.png" alt="" /> 
+            <img loading="lazy" className='object-contain onject-center h-[80px]' src="./img/logos/Demag 1.png" alt="" /> 
+            <img loading="lazy" className='object-contain onject-center h-[80px]' src="./img/logos/Dupont 1.png" alt="" /> 
+            <img loading="lazy" className='object-contain onject-center h-[80px]' src="./img/logos/Castolin 1.png" alt="" /> 
+            <img loading="lazy" className='object-contain onject-center h-[80px]' src="./img/logos/Caterpillar 1.png" alt="" /> 
+            <img loading="lazy" className='object-contain onject-center h-[80px]' src="./img/logos/Chockfast 1.png" alt="" /> 
         </div> */}
 
         <div className="mt-16">
@@ -65,7 +65,7 @@ export const Produit = () => {
         </div>
 
         
-        <img src="./img/produit_bas/26.png " alt="" />
+        <img loading="lazy" src="./img/produit_bas/26.png " alt="Industry inside" />
 
         <div className='my-12'>
             <h3 className=' mx-6 mt-6 md:mx-16 lg:mx-28 text-xl xl:text-3xl font-bold text-[#1C4179]'>Gestion de projets et commandes spéciales</h3>
@@ -81,14 +81,14 @@ export const Produit = () => {
         </div>
 
         <div className='grid grid-cols-2 md:grid-cols-4 gap-2 mx-6 md:mx-16 lg:mx-28'>
-            <img className='w-full h-full object-cover' src="./img/produit_bas/ACIERS 1.png " alt="" />
-            <img className='w-full h-full object-cover' src="./img/produit_bas/INSTRUM 2 1.png " alt="" />
-            <img className='w-full h-full object-cover' src="./img/produit_bas/INSTRUM 3 1.png " alt="" />
-            <img className='w-full h-full object-cover' src="./img/produit_bas/PI7CES DETACHEES.png" alt="" />
+            <img loading="lazy" className='w-full h-full object-cover' src="./img/produit_bas/ACIERS 1.png " alt="ACIERS 1.png " />
+            <img loading="lazy" className='w-full h-full object-cover' src="./img/produit_bas/INSTRUM 2 1.png " alt="INSTRUM 2 1.png " />
+            <img loading="lazy" className='w-full h-full object-cover' src="./img/produit_bas/INSTRUM 3 1.png " alt="INSTRUM 3 1.png " />
+            <img loading="lazy" className='w-full h-full object-cover' src="./img/produit_bas/PI7CES DETACHEES.png" alt="PI7CES DETACHEES.png" />
         </div>
 
         <div className='my-12'>
-            <img className='w-32 md:w-[250px] m-auto mb-4' src="public/img/icons/EMERGENCY BIS 3.png" alt="" />
+            <img loading="lazy" className='w-32 md:w-[250px] m-auto mb-4' src="public/img/icons/EMERGENCY BIS 3.png" alt="" />
             <p className='mx-6 md:mx-16 lg:mx-28 text-center xl:text-lg'>Nos équipes sont formées pour réagir rapidement à vos besoins urgents. De l'identification de la solution au déploiement, nous mettons tout en œuvre pour répondre aux urgences et minimiser les interruptions de vos activités</p>
         </div>
         

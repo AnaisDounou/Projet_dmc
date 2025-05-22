@@ -4,7 +4,7 @@ import { Link } from "./Link";
 
 export const Bienvenue = () => {
   return (
-    <section className="max-w-[1800px] m-auto">
+    <section className="max-w-[2560px] m-auto">
       {/* Bienvenue */}
       <div className="m-6 my-16 md:m-16  lg:m-28 grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16 items-center">
         <div className="flex flex-col gap-8">
@@ -21,7 +21,7 @@ export const Bienvenue = () => {
           </p>
           <ButtonMain text="En savoir plus sur nous" link="/a_propos" />
         </div>
-        <img src="./img/Bienvenue.png" alt="Bienvenue a dmc" className="" />
+        <img loading="lazy" src="./img/Bienvenue.png" alt="Bienvenue a dmc" className="" />
       </div>
 
       {/* Misson */}
@@ -81,7 +81,7 @@ export const Bienvenue = () => {
 
       {/* Pourquoi */}
       <div className="m-6 my-16 md:m-16 lg:m-28 grid grid-cols-1 md:grid-cols-2 gap-10 xl:gap-20 items-center">
-        <img src="./img/pourquoi.png" alt="" />
+        <img loading="lazy" src="./img/pourquoi.png" alt="" />
 
         <div className="flex flex-col gap-8">
           <h2 className="text-4xl text-[#1C4179] font-extrabold">

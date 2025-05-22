@@ -70,7 +70,7 @@ export const Secteurs = () => {
       <Header />
       <Banner2 img={'./img/banner/large-truck-carrying-sand-platinum-mining.png'} text={"Une couverture globale, des solutions multisectorielles"} />
 
-      <section className='max-w-[1800px] m-auto'>
+      <section className='max-w-[2560px] m-auto'>
         <div className='m-6 md:m-16 lg:mx-28 lg:my-20 flex flex-col gap-6 md:gap-20'>
           <Secteur_Activiter onClick={() => handleOpen('oil')} title="OIL & GAS" link="oil" img="./img/Secteurs/pipeline-8838495_1280 2.png" />
           <Secteur_Activiter title="MINES & CARRIERES" link="mines" img="./img/Secteurs/Remplacement - SECTEURS - Photo Mines et carrieres 1.png" />
@@ -83,21 +83,21 @@ export const Secteurs = () => {
               <div className='cursor-pointer flex flex-col gap-2 justify-center items-center'>
                 <h3 className='text-[#F49F1E] text-lg xl:text-xl text-center w-full'>Agro-alimentaire</h3>
                 <Link onClick={() => handleOpen('agro')} to="#" className='px-6 py-2 inline-block text-[#F49F1E] font-bold border-2 xl:text-lg duration-75 hover:text-white'>Plus de détails</Link>
-                <img className='h-full' src="./img/Secteurs/51 1.png" alt="" />
+                <img loading="lazy" className='h-full' src="./img/Secteurs/51 1.png" alt="image Agro-alimentaire" />
               </div>
 
               {/* FOREST */}
               <div className='cursor-pointer flex flex-col gap-2 justify-center items-center'>
                 <h3 className='text-[#F49F1E] text-lg xl:text-xl text-center w-full'>Forestière</h3>
                 <Link onClick={() => handleOpen('forest')} to="#" className='px-6 py-2 inline-block text-[#F49F1E] font-bold border-2 xl:text-lg duration-75 hover:text-white'>Plus de détails</Link>
-                <img className='h-full' src="./img/Secteurs/pexels-photo-12278580 1.png" alt="" />
+                <img loading="lazy" className='h-full' src="./img/Secteurs/pexels-photo-12278580 1.png" alt="image Forestière" />
               </div>
 
               {/* CONSTRUCTION */}
               <div className='cursor-pointer flex flex-col gap-2 justify-center items-center'>
                 <h3 className='text-[#F49F1E] text-lg xl:text-xl text-center w-full'>Construction</h3>
                 <Link onClick={() => handleOpen('construction')} to="#" className='px-6 py-2 inline-block text-[#F49F1E] font-bold border-2 xl:text-lg duration-75 hover:text-white'>Plus de détails</Link>
-                <img className='h-full' src="./img/Secteurs/pexels-kawserhamid-176342.png" alt="" />
+                <img loading="lazy" className='h-full' src="./img/Secteurs/pexels-kawserhamid-176342.png" alt="image Construction" />
               </div>
             </div>
           </div>
@@ -110,7 +110,7 @@ export const Secteurs = () => {
       {openModal && (
         <div className="fixed top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.8)] bg-opacity-50 flex items-center justify-center z-50">
           <div className="lg:py-20 w-full lg:w-3/5 h-full lg:h-4/5">
-            <img src={modalData[openModal].img} alt={modalData[openModal].img} className='object-cover w-11/12 h-[90vh] md:w-[80%] md:h-[90vh] absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]' />
+            <img loading="lazy" src={modalData[openModal].img} alt={modalData[openModal].img} className='object-cover w-11/12 h-[90vh] md:w-[80%] md:h-[90vh] absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]' />
             <div className="bg-[rgba(225,225,225,0.8)] w-10/12 md:min-w-[600px] mx-auto p-6 shadow-xl absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
               <button onClick={handleClose} className="absolute top-2 right-6 text-[#1C4179] text-4xl font-semibold">&times;</button>
               <h2 className="text-xl font-bold mb-4 text-[#1C4179]">{modalData[openModal].title}</h2>

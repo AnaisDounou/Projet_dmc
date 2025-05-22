@@ -20,25 +20,25 @@ export const ImgScroll = () => {
 
       <div className='flex gap-12 overflow-hidden'>
         <div className='flex gap-12 items-center' style={scrollAnimation}>
-          <img className='object-contain object-center w-[200px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/DISJONCTEURS 1.png" alt="" />
-          <img className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/VANNE GUILLOTINE.png" alt="" />
-          <img className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/EPI COMBI.png" alt="" />
-          <img className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/ADVANCE GEARBOX.png" alt="" />
-          <img className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/MARINE gps.png" alt="" />
+          <img loading="lazy" className='object-contain object-center w-[200px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/DISJONCTEURS 1.png" alt="DISJONCTEURS 1.png" />
+          <img loading="lazy" className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/VANNE GUILLOTINE.png" alt="VANNE GUILLOTINE.png" />
+          <img loading="lazy" className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/EPI COMBI.png" alt="EPI COMBI.png" />
+          <img loading="lazy" className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/ADVANCE GEARBOX.png" alt="ADVANCE GEARBOX.png" />
+          <img loading="lazy" className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/MARINE gps.png" alt="MARINE gps.png" />
         </div>
         <div className='flex gap-12 items-center' style={scrollAnimation} aria-hidden="true">
-          <img className='object-contain object-center w-[200px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/DISJONCTEURS 1.png" alt="" />
-          <img className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/VANNE GUILLOTINE.png" alt="" />
-          <img className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/EPI COMBI.png" alt="" />
-          <img className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/ADVANCE GEARBOX.png" alt="" />
-          <img className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/MARINE gps.png" alt="" />
+          <img loading="lazy" className='object-contain object-center w-[200px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/DISJONCTEURS 1.png" alt="DISJONCTEURS 1.png" />
+          <img loading="lazy" className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/VANNE GUILLOTINE.png" alt="VANNE GUILLOTINE.png" />
+          <img loading="lazy" className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/EPI COMBI.png" alt="EPI COMBI.png" />
+          <img loading="lazy" className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/ADVANCE GEARBOX.png" alt="ADVANCE GEARBOX.png" />
+          <img loading="lazy" className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/MARINE gps.png" alt="MARINE gps.png" />
         </div>
         <div className='flex gap-12 items-center' style={scrollAnimation} aria-hidden="true">
-          <img className='object-contain object-center w-[200px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/DISJONCTEURS 1.png" alt="" />
-          <img className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/VANNE GUILLOTINE.png" alt="" />
-          <img className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/EPI COMBI.png" alt="" />
-          <img className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/ADVANCE GEARBOX.png" alt="" />
-          <img className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/MARINE gps.png" alt="" />
+          <img loading="lazy" className='object-contain object-center w-[200px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/DISJONCTEURS 1.png" alt="DISJONCTEURS 1.png" />
+          <img loading="lazy" className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/VANNE GUILLOTINE.png" alt="VANNE GUILLOTINE.png" />
+          <img loading="lazy" className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/EPI COMBI.png" alt="EPI COMBI.png" />
+          <img loading="lazy" className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/ADVANCE GEARBOX.png" alt="ADVANCE GEARBOX.png" />
+          <img loading="lazy" className='object-contain object-center w-[160px] overflow-hidden self-center shrink-0 m-auto' src="./img/produit/MARINE gps.png" alt="MARINE gps.png" />
         </div>
       </div>
     </>

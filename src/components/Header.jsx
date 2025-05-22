@@ -15,9 +15,9 @@ function Header() {
         `transition duration-150 ${isActive ? "text-[#F49F1E] underline" : "text-white"}`;
 
     return (
-        <header className="max-w-[1800px] m-auto">
+        <header className="max-w-[2560px] m-auto">
             <div className="bg-[#1C4179] flex justify-between items-center px-6 md:px-16 lg:px-28 py-3">
-                <img src="./img/logo_dmc.png" alt="Logo" className="w-18 md:w-20 lg:w-24 xl:w-32" />
+                <img loading="lazy" src="./img/logo_dmc.png" alt="Logo" className="w-18 md:w-20 lg:w-24 xl:w-32" />
                 <nav className="flex items-center">
                     <ul className="hidden md:flex gap-4 lg:gap-8 text-base xl:text-lg font-medium">
                         <li className="hover:underline"><NavLink to="/" className={navLinkClass}>Accueil</NavLink></li>

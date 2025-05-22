@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
-    <footer className="max-w-[1800px] m-auto bg-[#1C4179] p-6 md:px-16 lg:px-28 lg:py-8 grid grid-cols-1 lg:grid-cols-3 justify-center gap-6 lg:gap-16">
+    <footer className="max-w-[2560px] m-auto bg-[#1C4179] p-6 md:px-16 lg:px-28 lg:py-8 grid grid-cols-1 lg:grid-cols-3 justify-center gap-6 lg:gap-16">
       <div>
-        <img
+        <img loading="lazy"
           src="./img/logo_dmc.png"
           alt="DMC logo"
           className="p-6 md:px-46 lg:p-6"

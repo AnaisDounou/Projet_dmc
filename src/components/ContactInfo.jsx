@@ -45,7 +45,7 @@ export const ContactInfo = () => {
                     <input className='px-8 py-4 bg-[#F49F1E] rounded-lg w-full text-white font-bold hover:opacity-80'  type="submit" value="Envoyer" />
                 </form>
             </div>
-            <img className='rounded-xl object-cover w-full h-full' src="./img/pipeline-8838496_1280 1.png" alt="" />
+            <img loading="lazy" className='rounded-xl object-cover w-full h-full' src="./img/pipeline-8838496_1280 1.png" alt="pipeline image" />
         </div>
 
         {/*  */}
