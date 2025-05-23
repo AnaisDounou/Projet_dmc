@@ -67,7 +67,7 @@ export const Secteurs = () => {
 
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
       <Banner2 img={'./img/banner/large-truck-carrying-sand-platinum-mining.png'} text={"Une couverture globale, des solutions multisectorielles"} />
 
       <section className='max-w-[2560px] m-auto'>

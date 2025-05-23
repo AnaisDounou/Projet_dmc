@@ -7,7 +7,7 @@ import { Services } from '../components/Services'
 function Solutions() {
     return(
       <div>
-        <Header/>
+        {/* <Header/> */}
         <Banner2 img={'/img/banner/Image1_yellow.png'} text={'Des solutions complètes pour optimiser vos performances industrielles'}/>
         <Produit/>
         <Services/>

@@ -6,7 +6,7 @@ import { Bienvenue } from '../components/Bienvenue'
 function Home() {
     return(
       <div>
-        <Header/>
+        {/* <Header/> */}
         <Banner/>
         <Bienvenue/>
         <Footer/>

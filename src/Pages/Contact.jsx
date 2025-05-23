@@ -7,7 +7,7 @@ import { ContactInfo } from '../components/ContactInfo'
 export const Contact = () => {
   return (
     <div>
-        <Header/>
+        {/* <Header/> */}
         <Banner2 img={'./img/banner/industry-2023592_960.png'} text={"Vous avez une question ou besoin d’un conseil?"}/>
         <ContactInfo/>
         <Footer/>

@@ -7,7 +7,7 @@ import { Savoir } from '../components/Savoir'
 export const A_Propos = () => {
   return (
     <div>
-        <Header/>
+        {/* <Header/> */}
         <Banner2 img={'./img/banner/CHAINE 1.png'} text={"Une alliance stratégique au service des industrielss"}/>
         <Savoir/>
         <Footer/>
