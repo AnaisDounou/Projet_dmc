@@ -81,7 +81,7 @@ function Header() {
                             </div>
                             {showSecteurs && (
                                 <ul onMouseLeave={() => setShowSecteurs(false)} className="absolute top-full left-0 mt-2 flex-col bg-white text-[#1C4179] shadow-lg rounded-md z-10 w-64">
-                                    {["OIL & GAS", "MINES & CARRIERES", "MARINE", "Agro-alimentaire", "Forestière", "Construction"].map((secteur, i) => (
+                                    {["Oil & Gas", "Mines & Carrieres", "Marine", "Agro-alimentaire", "Forestière", "Construction"].map((secteur, i) => (
                                         <li key={i} className="px-4 py-2 hover:bg-gray-100">
                                             <NavLink to={`/secteurs#${secteur.toLowerCase().replace(/ & | /g, "-")}`} onClick={() => setShowSecteurs(false)}>
                                                 {secteur}
@@ -154,7 +154,7 @@ function Header() {
                         </div>
                         {showSecteurs && (
                             <ul className="mt-2 pl-4 text-sm flex flex-col gap-2">
-                                {["OIL & GAS", "MINES & CARRIERES", "MARINE", "Agro-alimentaire", "Forestière", "Construction"].map((secteur, i) => (
+                                {["Oil & Gas", "Mines & Carrieres", "Marine", "Agro-alimentaire", "Forestière", "Construction"].map((secteur, i) => (
                                     <li key={i}>
                                         <NavLink to={`/secteurs#${secteur.toLowerCase().replace(/ & | /g, "-")}`} onClick={toggleMenu}>
                                             {secteur}

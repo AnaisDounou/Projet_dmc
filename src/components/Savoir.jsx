@@ -33,7 +33,7 @@ export const Savoir = () => {
         
         <p className='mx-6 my-12 md:mx-16 lg:mx-28 2xl:mx-56 text-justify md:text-center xl:text-lg'>Cette union de forces et de compétences fait de DMC CONSULTING une entreprise unique, capable d’intervenir efficacement sur des projets variés, en combinant rigueur, innovation et pragmatisme. Nos équipes, animées par un esprit de collaboration et un engagement sans faille, se tiennent aux côtés de nos clients pour les accompagner dans leurs défis opérationnels et stratégiques.</p>
 
-        <img className='h-[100vh] object-cover' loading="lazy" src="./img/savoir_faire/2-2 1.png " alt="faire une bonne affaire" />
+        <img className='lg:h-[100vh] object-cover' loading="lazy" src="./img/savoir_faire/2-2 1.png " alt="faire une bonne affaire" />
 
         <p className='m-6 md:my-16 md:mx-16 lg:mx-28 2xl:mx-56 text-xl lg:text-3xl font-black text-[#1C4179] text-center'>Avec DMC CONSULTING, vous bénéficiez d’un partenaire de confiance, fort d’une vision globale et d’une capacité d’exécution locale, pour construire des solutions pérennes et créatrices de valeur dans un environnement industriel en constante évolution.</p>
 

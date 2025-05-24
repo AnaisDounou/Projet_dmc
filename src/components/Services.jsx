@@ -31,7 +31,7 @@ export const Services = () => {
         </div>
         
 
-        <img loading="lazy" className='mt-5 h-[100vh] object-cover' src="./img/produit_bas/Assitance technique 3.png " alt="Assitance technique 3" />
+        <img loading="lazy" className='mt-5 lg:h-[100vh] object-cover' src="./img/produit_bas/Assitance technique 3.png " alt="Assitance technique 3" />
 
     </section>
   )
