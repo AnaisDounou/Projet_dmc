@@ -140,8 +140,8 @@ function Header() {
                         </div>
                         {showSolutions && (
                             <ul className="mt-2 pl-4 text-sm flex flex-col gap-2">
-                                <li><NavLink to="/solutions/produits" onClick={toggleMenu}>Nos Produits</NavLink></li>
-                                <li><NavLink to="/solutions/services" onClick={toggleMenu}>Nos Services</NavLink></li>
+                                <li><NavLink to="/solutions#produits" onClick={toggleMenu}>Nos Produits</NavLink></li>
+                                <li><NavLink to="/solutions#services" onClick={toggleMenu}>Nos Services</NavLink></li>
                             </ul>
                         )}
                     </li>
@@ -156,7 +156,7 @@ function Header() {
                             <ul className="mt-2 pl-4 text-sm flex flex-col gap-2">
                                 {["OIL & GAS", "MINES & CARRIERES", "MARINE", "Agro-alimentaire", "Forestière", "Construction"].map((secteur, i) => (
                                     <li key={i}>
-                                        <NavLink to={`/secteurs/${secteur.toLowerCase().replace(/ & | /g, "-")}`} onClick={toggleMenu}>
+                                        <NavLink to={`/secteurs#${secteur.toLowerCase().replace(/ & | /g, "-")}`} onClick={toggleMenu}>
                                             {secteur}
                                         </NavLink>
                                     </li>
@@ -173,8 +173,8 @@ function Header() {
                         </div>
                         {showAPropos && (
                             <ul className="mt-2 pl-4 text-sm flex flex-col gap-2">
-                                <li><NavLink to="/a_propos/synergie" onClick={toggleMenu}>Synergie des Savoir-faire</NavLink></li>
-                                <li><NavLink to="/a_propos/engagements" onClick={toggleMenu}>Nos Engagements</NavLink></li>
+                                <li><NavLink to="/a_propos#synergie" onClick={toggleMenu}>Synergie des Savoir-faire</NavLink></li>
+                                <li><NavLink to="/a_propos#engagements" onClick={toggleMenu}>Nos Engagements</NavLink></li>
                             </ul>
                         )}
                     </li>
