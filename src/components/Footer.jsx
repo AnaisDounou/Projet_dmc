@@ -1,15 +1,31 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 export const Footer = () => {
+
+   const location = useLocation();
+
+    useEffect(() => {
+        if (location.hash) {
+        const el = document.querySelector(location.hash);
+        if (el) {
+            el.scrollIntoView({ behavior: "smooth" });
+        }
+        }
+    }, [location]); 
+
   return (
-    <footer className="max-w-[2560px] m-auto bg-[#1C4179] p-6 md:px-16 lg:px-28 lg:py-8 grid grid-cols-1 lg:grid-cols-3 justify-center gap-6 lg:gap-16">
+    <footer className="max-w-[2560px] m-auto bg-[#1C4179] p-6 md:px-16 lg:px-28 2xl:px-56 lg:py-8 grid grid-cols-1 lg:grid-cols-3 justify-center gap-6 lg:gap-16">
       <div>
-        <img loading="lazy"
-          src="./img/logo_dmc.png"
-          alt="DMC logo"
-          className="p-6 md:px-46 lg:p-6"
-        />
+        <a href="/">
+          <img loading="lazy"
+            src="./img/logo_dmc.png"
+            alt="DMC logo"
+            className="p-6 md:px-46 lg:p-6"
+          />
+        </a>
         <p className="text-[15px] text-center text-white">
           “Votre besoin. Notre solution. Votre réussite”
         </p>
@@ -20,24 +36,19 @@ export const Footer = () => {
             <span className="text-xl font-bold block mb-3">Information</span>
             <ul className="flex flex-col gap-1">
               <li className="hover:underline">
-                {" "}
-                <Link to="/"> Accueil </Link>
+                <a href="/"> Accueil </a>
               </li>
               <li className="hover:underline">
-                {" "}
-                <Link to="/solutions"> Produits </Link>
+                <a href="/solutions#produit"> Produits </a>
               </li>
               <li className="hover:underline">
-                {" "}
-                <Link to="/solutions#services"> Services </Link>
+                <a href="/solutions#services"> Services </a>
               </li>
               <li className="hover:underline">
-                {" "}
-                <Link to="/secteurs"> Secteurs </Link>
+                <a href="/secteurs"> Secteurs </a>
               </li>
               <li className="hover:underline">
-                {" "}
-                <Link to="/a_propos"> A propos </Link>
+                <a href="/a_propos"> A propos </a>
               </li>
             </ul>
           </div>
@@ -45,10 +56,10 @@ export const Footer = () => {
           <div>
             <span className="text-xl font-bold block mb-3">Secteurs</span>
             <ul className="flex flex-col gap-1">
-              <li className="hover:underline">Oil & Gas </li>
-              <li className="hover:underline">Mines & carrières</li>
-              <li className="hover:underline">Marine</li>
-              <li className="hover:underline">Divers Industries</li>
+              <li className="hover:underline"><Link to="/secteurs#oil-gas">Oil & Gas </Link></li>
+              <li className="hover:underline"><Link to="/secteurs#mines-carrieres">Mines & carrières</Link></li>
+              <li className="hover:underline"><Link to="/secteurs#marine">Marine</Link></li>
+              <li className="hover:underline"><Link to="/secteurs#divers">Divers Industries</Link></li>
             </ul>
           </div>
 

@@ -2,15 +2,15 @@ import React from 'react'
 
 export const Services = () => {
   return (
-    <section id='#services' className='max-w-[2560px] m-auto'>
-        <h2 className='bg-[#1C4179] text-[#F49F1E] text-2xl xl:text-3xl font-black text-center uppercase w-full p-8'>Nos Services</h2>
+    <section id='services' className='max-w-[2560px] m-auto'>
+        <h2 className='bg-[#1C4179] text-[#F49F1E] text-2xl xl:text-3xl font-black text-center uppercase w-full p-8 lg:p-12 2xl:p-18'>Nos Services</h2>
 
-        <p className='m-6 md:my-12 md:mx-16 lg:mx-28 text-2xl lg:text-3xl font-black text-[#1C4179]'>Notre expertise couvre certains domaines clés pour accompagner votre développement et optimiser vos opérations</p>
+        <p className='m-6 md:my-12 md:mx-16 lg:mx-28 2xl:mx-56 text-2xl lg:text-3xl font-black text-[#1C4179]'>Notre expertise couvre certains domaines clés pour accompagner votre développement et optimiser vos opérations</p>
         
-        <h3 className='mx-6 mt-6 md:mx-16 lg:mx-28 text-xl xl:text-2xl font-bold text-[#1C4179]'>Nos services :</h3>
-        <p className='mx-6 md:mx-16 lg:mx-28 text-justify xl:text-lg'>sont conçus pour répondre aux défis spécifiques de vos équipes, que ce soit sur le terrain ou au niveau stratégique. Nous travaillons avec vous pour développer des solutions adaptées à vos besoins et alignées avec vos objectifs opérationnels.</p>
+        <h3 className='mx-6 mt-6 md:mx-16 lg:mx-28 2xl:mx-56 text-xl xl:text-2xl font-bold text-[#1C4179]'>Nos services :</h3>
+        <p className='mx-6 md:mx-16 lg:mx-28 2xl:mx-56 text-justify xl:text-lg'>sont conçus pour répondre aux défis spécifiques de vos équipes, que ce soit sur le terrain ou au niveau stratégique. Nous travaillons avec vous pour développer des solutions adaptées à vos besoins et alignées avec vos objectifs opérationnels.</p>
 
-        <div className='m-6 md:my-12 md:mx-16 lg:mx-28'>
+        <div className='m-6 md:my-12 md:mx-16 lg:mx-28 2xl:mx-56'>
             <div className='grid md:grid-cols-2 gap-4'>
                 <div className='bg-[#F49F1E] text-white text-center px-6 py-12 flex justify-center items-center flex-col h-full'>
                     <img loading="lazy" className='w-28' src="./img/icons/airplane-plane-flight 1.png" alt="airplane-plane-flight " />
@@ -31,7 +31,7 @@ export const Services = () => {
         </div>
         
 
-        <img loading="lazy" className='my-5' src="./img/produit_bas/Assitance technique 3.png " alt="Assitance technique 3" />
+        <img loading="lazy" className='mt-5 h-[100vh] object-cover' src="./img/produit_bas/Assitance technique 3.png " alt="Assitance technique 3" />
 
     </section>
   )

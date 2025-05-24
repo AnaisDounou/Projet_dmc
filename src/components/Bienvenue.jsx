@@ -4,9 +4,9 @@ import { Link } from "./Link";
 
 export const Bienvenue = () => {
   return (
-    <section className="max-w-[2560px] m-auto">
+    <section id="home" className="max-w-[2560px] m-auto">
       {/* Bienvenue */}
-      <div className="m-6 my-16 md:m-16  lg:m-28 grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16 items-center">
+      <div className="m-6 my-16 md:m-16 lg:m-28 2xl:mx-56 grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-16 items-center">
         <div className="flex flex-col gap-8">
           <h2 className="text-[#1C4179] text-3xl lg:text-4xl xl:text-5xl font-bold">
             Bienvenue sur notre site
@@ -21,11 +21,11 @@ export const Bienvenue = () => {
           </p>
           <ButtonMain text="En savoir plus sur nous" link="/a_propos" />
         </div>
-        <img loading="lazy" src="./img/Bienvenue.png" alt="Bienvenue a dmc" className="" />
+        <img loading="lazy" src="./img/Group 11.png" alt="Bienvenue a dmc" className="" />
       </div>
 
       {/* Misson */}
-      <div className="mx-6 md:mx-16 lg:mx-28 flex flex-col gap-6">
+      <div className="mx-6 md:mx-16 lg:mx-28 2xl:mx-56 flex flex-col gap-6">
         <div className="flex flex-col gap-1">
           <h3 className="text-2xl xl:text-3xl text-[#1C4179] font-extrabold">
             Notre mission
@@ -80,7 +80,7 @@ export const Bienvenue = () => {
       </div>
 
       {/* Pourquoi */}
-      <div className="m-6 my-16 md:m-16 lg:m-28 grid grid-cols-1 md:grid-cols-2 gap-10 xl:gap-20 items-center">
+      <div className="m-6 my-16 md:m-16 lg:m-28 2xl:mx-56 grid grid-cols-1 md:grid-cols-2 gap-10 xl:gap-20 items-center">
         <img loading="lazy" src="./img/pourquoi.png" alt="" />
 
         <div className="flex flex-col gap-8">

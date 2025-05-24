@@ -71,30 +71,36 @@ export const Secteurs = () => {
       <Banner2 img={'./img/banner/large-truck-carrying-sand-platinum-mining.png'} text={"Une couverture globale, des solutions multisectorielles"} />
 
       <section className='max-w-[2560px] m-auto'>
-        <div className='m-6 md:m-16 lg:mx-28 lg:my-20 flex flex-col gap-6 md:gap-20'>
-          <Secteur_Activiter onClick={() => handleOpen('oil')} title="OIL & GAS" link="oil" img="./img/Secteurs/pipeline-8838495_1280 2.png" />
-          <Secteur_Activiter title="MINES & CARRIERES" link="mines" img="./img/Secteurs/Remplacement - SECTEURS - Photo Mines et carrieres 1.png" />
-          <Secteur_Activiter title="MARINE" link="marine" img="./img/Secteurs/shipping-4663266_1280 2.png" />
+        <div className='m-6 md:m-16 lg:mx-28 2xl:mx-56 lg:my-20 flex flex-col gap-6 md:gap-20'>
+          <div id="oil-gas">
+            <Secteur_Activiter title="OIL & GAS" link="oil" img="./img/Secteurs/pipeline-8838495_1280 2.png" />
+          </div>
+          <div id="mines-carrieres">
+            <Secteur_Activiter title="MINES & CARRIERES" link="mines" img="./img/Secteurs/Remplacement - SECTEURS - Photo Mines et carrieres 1.png" />
+          </div>
+          <div id="marine">
+            <Secteur_Activiter title="MARINE" link="marine" img="./img/Secteurs/shipping-4663266_1280 2.png" />
+          </div>
 
-          <div className='bg-[#1C4179]'>
+          <div className='bg-[#1C4179]' id='divers'>
             <h2 className='text-[#F49F1E] text-2xl xl:text-3xl font-black text-center uppercase w-full my-6'>AUTRES INDUSTRIES</h2>
             <div className='grid md:grid-cols-3 gap-8 md:gap-0'>
               {/* AGRO */}
-              <div className='cursor-pointer flex flex-col gap-2 justify-center items-center'>
+              <div id='agro-alimentaire' className='cursor-pointer flex flex-col gap-2 justify-center items-center'>
                 <h3 className='text-[#F49F1E] text-lg xl:text-xl text-center w-full'>Agro-alimentaire</h3>
                 <Link onClick={() => handleOpen('agro')} to="#" className='px-6 py-2 inline-block text-[#F49F1E] font-bold border-2 xl:text-lg duration-75 hover:text-white'>Plus de détails</Link>
                 <img loading="lazy" className='h-full' src="./img/Secteurs/51 1.png" alt="image Agro-alimentaire" />
               </div>
 
               {/* FOREST */}
-              <div className='cursor-pointer flex flex-col gap-2 justify-center items-center'>
+              <div id='forestière' className='cursor-pointer flex flex-col gap-2 justify-center items-center'>
                 <h3 className='text-[#F49F1E] text-lg xl:text-xl text-center w-full'>Forestière</h3>
                 <Link onClick={() => handleOpen('forest')} to="#" className='px-6 py-2 inline-block text-[#F49F1E] font-bold border-2 xl:text-lg duration-75 hover:text-white'>Plus de détails</Link>
                 <img loading="lazy" className='h-full' src="./img/Secteurs/pexels-photo-12278580 1.png" alt="image Forestière" />
               </div>
 
               {/* CONSTRUCTION */}
-              <div className='cursor-pointer flex flex-col gap-2 justify-center items-center'>
+              <div id='construction' className='cursor-pointer flex flex-col gap-2 justify-center items-center'>
                 <h3 className='text-[#F49F1E] text-lg xl:text-xl text-center w-full'>Construction</h3>
                 <Link onClick={() => handleOpen('construction')} to="#" className='px-6 py-2 inline-block text-[#F49F1E] font-bold border-2 xl:text-lg duration-75 hover:text-white'>Plus de détails</Link>
                 <img loading="lazy" className='h-full' src="./img/Secteurs/pexels-kawserhamid-176342.png" alt="image Construction" />
