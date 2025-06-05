@@ -36,7 +36,7 @@ export const Footer = () => {
             <span className="text-xl font-bold block mb-3">Information</span>
             <ul className="flex flex-col gap-1">
               <li className="hover:underline">
-                <Link to="/"> Accueil </Link>
+                <Link to="/" onClick={() => window.scrollTo(0, 0)}> Accueil </Link>
               </li>
               <li className="hover:underline">
                 <Link to="/solutions#produit"> Produits </Link>
@@ -45,10 +45,10 @@ export const Footer = () => {
                 <Link to="/solutions#services"> Services </Link>
               </li>
               <li className="hover:underline">
-                <Link to="/secteurs"> Secteurs </Link>
+                <Link to="/secteurs" onClick={() => window.scrollTo(0, 0)}> Secteurs </Link>
               </li>
               <li className="hover:underline">
-                <Link to="/a_propos"> A propos </Link>
+                <Link to="/a_propos" onClick={() => window.scrollTo(0, 0)}> A propos </Link>
               </li>
             </ul>
           </div>
