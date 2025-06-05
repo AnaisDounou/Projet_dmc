@@ -53,7 +53,6 @@ export const ImgScroll = () => {
           <img className='object-contain object-center w-[140px] max-h-[100px] overflow-hidden self-center shrink-0 m-auto' src="./img/nosproduits/MOTEURS WEICHAI.jpg " alt="MOTEURS WEICHAI.jpg" />
           <img className='object-contain object-center w-[140px] max-h-[100px] overflow-hidden self-center shrink-0 m-auto' src="./img/nosproduits/OUTILLAGE A MAIN.jpg " alt="OUTILLAGE A MAIN.jpg" />
           <img className='object-contain object-center w-[140px] max-h-[100px] overflow-hidden self-center shrink-0 m-auto' src="./img/nosproduits/PALAN.jpg " alt="PALAN.jpg" />
-          <img className='object-contain object-center w-[140px] max-h-[100px] overflow-hidden self-center shrink-0 m-auto' src="./img/nosproduits/Perimeter-Light-300x300.jpg " alt="Perimeter-Light-300x300.jpg" />
           <img className='object-contain object-center w-[140px] max-h-[100px] overflow-hidden self-center shrink-0 m-auto' src="./img/nosproduits/POMPE A BETON.jpg " alt="POMPE A BETON.jpg" />
           <img className='object-contain object-center w-[140px] max-h-[100px] overflow-hidden self-center shrink-0 m-auto' src="./img/nosproduits/pompe a membrane.jpg " alt="pompe a membrane.jpg" />
           <img className='object-contain object-center w-[140px] max-h-[100px] overflow-hidden self-center shrink-0 m-auto' src="./img/nosproduits/pompe incendie.jpg " alt="pompe incendie.jpg" />
@@ -104,7 +103,6 @@ export const ImgScroll = () => {
           <img className='object-contain object-center w-[140px] max-h-[100px] overflow-hidden self-center shrink-0 m-auto' src="./img/nosproduits/MOTEURS WEICHAI.jpg " alt="MOTEURS WEICHAI.jpg" />
           <img className='object-contain object-center w-[140px] max-h-[100px] overflow-hidden self-center shrink-0 m-auto' src="./img/nosproduits/OUTILLAGE A MAIN.jpg " alt="OUTILLAGE A MAIN.jpg" />
           <img className='object-contain object-center w-[140px] max-h-[100px] overflow-hidden self-center shrink-0 m-auto' src="./img/nosproduits/PALAN.jpg " alt="PALAN.jpg" />
-          <img className='object-contain object-center w-[140px] max-h-[100px] overflow-hidden self-center shrink-0 m-auto' src="./img/nosproduits/Perimeter-Light-300x300.jpg " alt="Perimeter-Light-300x300.jpg" />
           <img className='object-contain object-center w-[140px] max-h-[100px] overflow-hidden self-center shrink-0 m-auto' src="./img/nosproduits/POMPE A BETON.jpg " alt="POMPE A BETON.jpg" />
           <img className='object-contain object-center w-[140px] max-h-[100px] overflow-hidden self-center shrink-0 m-auto' src="./img/nosproduits/pompe a membrane.jpg " alt="pompe a membrane.jpg" />
           <img className='object-contain object-center w-[140px] max-h-[100px] overflow-hidden self-center shrink-0 m-auto' src="./img/nosproduits/pompe incendie.jpg " alt="pompe incendie.jpg" />

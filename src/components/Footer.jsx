@@ -36,19 +36,19 @@ export const Footer = () => {
             <span className="text-xl font-bold block mb-3">Information</span>
             <ul className="flex flex-col gap-1">
               <li className="hover:underline">
-                <a href="/"> Accueil </a>
+                <Link to="/"> Accueil </Link>
               </li>
               <li className="hover:underline">
-                <a href="/solutions#produit"> Produits </a>
+                <Link to="/solutions#produit"> Produits </Link>
               </li>
               <li className="hover:underline">
-                <a href="/solutions#services"> Services </a>
+                <Link to="/solutions#services"> Services </Link>
               </li>
               <li className="hover:underline">
-                <a href="/secteurs"> Secteurs </a>
+                <Link to="/secteurs"> Secteurs </Link>
               </li>
               <li className="hover:underline">
-                <a href="/a_propos"> A propos </a>
+                <Link to="/a_propos"> A propos </Link>
               </li>
             </ul>
           </div>
@@ -59,7 +59,7 @@ export const Footer = () => {
               <li className="hover:underline"><Link to="/secteurs#oil-gas">Oil & Gas </Link></li>
               <li className="hover:underline"><Link to="/secteurs#mines-carrieres">Mines & carrières</Link></li>
               <li className="hover:underline"><Link to="/secteurs#marine">Marine</Link></li>
-              <li className="hover:underline"><Link to="/secteurs#divers">Divers Industries</Link></li>
+              <li className="hover:underline"><Link to="/secteurs#divers">Autres Industries</Link></li>
             </ul>
           </div>
 

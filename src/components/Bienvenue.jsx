@@ -72,8 +72,7 @@ export const Bienvenue = () => {
           </p>
 
           <p className="text-justify leading-7 tracking-wide xl:text-xl/10">
-            Découvrez nos <Link to="/solutions#produit" className='underline text-[#F49F1E] hover:text-[#1C4179] duration-75'>produits</Link> , &
-            <Link to="/solutions#services" className='underline text-[#F49F1E] hover:text-[#1C4179] duration-75'>services</Link> , et notre engagement à vous
+            Découvrez nos <Link to="/solutions#produit" className='underline text-[#F49F1E] hover:text-[#1C4179] duration-75'>produits</Link> , & <Link to="/solutions#services" className='underline text-[#F49F1E] hover:text-[#1C4179] duration-75'>services</Link> , et notre engagement à vous
             fournir des solutions adaptées à vos défis industriels.
           </p>
         </div>

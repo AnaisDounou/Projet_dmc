@@ -32,7 +32,7 @@ const Slider = () => {
       >
         {images.map((src, index) => (
             <div key={index} className="w-full shrink-0">
-                <img loading="lazy"
+                <img
                     key={index}
                     src={src}
                     alt={`Slide ${index + 1}`}
