@@ -57,7 +57,7 @@ const Slider = () => {
       </button>
 
       {/* Dots */}
-      <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex space-x-2">
+      <div className="hidden absolute bottom-2 left-1/2 -translate-x-1/2  space-x-2">flex
         {images.map((_, index) => (
           <button
             key={index}

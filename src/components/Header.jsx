@@ -32,7 +32,7 @@ function Header() {
     };
 
     const navLinkClass = ({ isActive }) =>
-        `transition duration-150 ${isActive ? "text-[#F49F1E] border-b border-[#F49F1E]" : "text-white"}`;
+        `transition duration-150 ${isActive ? "text-[#F49F1E] border-b border-[#F49F1E]" : "text-white border-b border-transparent hover:border-white"}`;
 
     return (
         <header className="max-w-[2560px] m-auto">
@@ -43,13 +43,13 @@ function Header() {
 
                 <nav className="flex items-center">
                     <ul className="hidden md:flex gap-4 lg:gap-8 text-base xl:text-lg font-medium relative z-20">
-                        <li className="hover:border-b hover:border-white">
+                        <li className="">
                             <NavLink to="/" className={navLinkClass}>Accueil</NavLink>
                         </li>
 
                         {/* Solutions */}
                         <li
-                            className="relative flex items-center gap-2 hover:border-b hover:border-white cursor-pointer"
+                            className="relative flex items-center gap-2  cursor-pointer"
                             // onMouseEnter={() => setShowSolutions(true)}
                             onClick={() => setShowSolutions(!showSolutions)}
                         >
@@ -58,7 +58,7 @@ function Header() {
                                 <IoIosArrowDown  className="text-white" />
                             </div>
                             {showSolutions && (
-                                <ul onMouseLeave={() => setShowSolutions(false)} className="absolute top-full left-0 mt-2 flex-col bg-white text-[#1C4179] shadow-lg rounded-md z-10 w-48">
+                                <ul onMouseLeave={() => setShowSolutions(false)} className="absolute top-full left-0 mt-2 flex-col bg-white text-[#1C4179] shadow-lg rounded-md z-10 w-48 overflow-hidden">
                                     <li className="px-4 py-2 hover:bg-gray-100">
                                         <NavLink to="/solutions#produit" onClick={() => setShowSolutions(false)}>Nos Produits</NavLink>
                                     </li>
@@ -71,7 +71,7 @@ function Header() {
 
                         {/* Secteurs */}
                         <li
-                            className="relative flex items-center gap-2 hover:border-b hover:border-white cursor-pointer"
+                            className="relative flex items-center gap-2  cursor-pointer"
                             // onMouseEnter={() => setShowSecteurs(true)}
                             onClick={() => setShowSecteurs(!showSecteurs)}
                         >
@@ -80,7 +80,7 @@ function Header() {
                                 <IoIosArrowDown className="text-white" />
                             </div>
                             {showSecteurs && (
-                                <ul onMouseLeave={() => setShowSecteurs(false)} className="absolute top-full left-0 mt-2 flex-col bg-white text-[#1C4179] shadow-lg rounded-md z-10 w-64">
+                                <ul onMouseLeave={() => setShowSecteurs(false)} className="absolute top-full left-0 mt-2 flex-col bg-white text-[#1C4179] shadow-lg rounded-md z-10 w-64 overflow-hidden">
                                     {["Oil & Gas", "Mines & Carrieres", "Marine", "Agro-alimentaire", "Forestière", "Construction"].map((secteur, i) => (
                                         <li key={i} className="px-4 py-2 hover:bg-gray-100">
                                             <NavLink to={`/secteurs#${secteur.toLowerCase().replace(/ & | /g, "-")}`} onClick={() => setShowSecteurs(false)}>
@@ -94,16 +94,16 @@ function Header() {
 
                         {/* A propos */}
                         <li
-                            className="relative flex items-center gap-2 hover:border-b hover:border-white cursor-pointer"
+                            className="relative flex items-center gap-2  cursor-pointer"
                             // onMouseEnter={() => setShowAPropos(true)}
                             onClick={() => setShowAPropos(!showAPropos)}
                         >
                             <div onClick={() => setShowAPropos(!showAPropos)} className="flex items-center gap-2">
-                                <NavLink to="/a_propos" className={navLinkClass}>A propos</NavLink>
+                                <NavLink to="/a_propos" className={navLinkClass}>À propos</NavLink>
                                 <IoIosArrowDown className="text-white" />
                             </div>
                             {showAPropos && (
-                                <ul onMouseLeave={() => setShowAPropos(false)} className="absolute top-full left-0 mt-2 flex-col bg-white text-[#1C4179] shadow-lg rounded-md z-10 w-64">
+                                <ul onMouseLeave={() => setShowAPropos(false)} className="absolute top-full left-0 mt-2 flex-col bg-white text-[#1C4179] shadow-lg rounded-md z-10 w-64 overflow-hidden">
                                     <li className="px-4 py-2 hover:bg-gray-100">
                                         <NavLink to="/a_propos#synergie" onClick={() => setShowAPropos(false)}>Synergie des Savoir-faire</NavLink>
                                     </li>
@@ -114,7 +114,7 @@ function Header() {
                             )}
                         </li>
 
-                        <li className="hover:border-b hover:border-white">
+                        <li className="">
                             <NavLink to="/contacts" className={navLinkClass}>Contacts</NavLink>
                         </li>
                     </ul>
@@ -168,7 +168,7 @@ function Header() {
                     {/* A propos Mobile */}
                     <li>
                         <div onClick={() => setShowAPropos(!showAPropos)} className="flex items-center gap-2 cursor-pointer">
-                            <span>A propos</span>
+                            <span>À propos</span>
                             <IoIosArrowDown className="text-white" />
                         </div>
                         {showAPropos && (

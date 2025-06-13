@@ -34,13 +34,13 @@ export const Produit = () => {
         </div>
 
 
-        <div className='bg-[#1C4179] text-white max-w-5/6 sm:max-w-[500px] lg:max-w-[800px] xl:max-w-[900px] m-auto mt-12 md:mt-32 px-6 py-4 md:px-12 md:py-6  shadow-[-12px_-12px_#F49F1E] md:shadow-[-20px_-20px_#F49F1E] lg:shadow-[-40px_-40px_#F49F1E]'>
+        <div className='bg-[#1C4179] text-white max-w-5/6 sm:max-w-[500px] lg:max-w-[800px] xl:max-w-[900px] m-auto mt-12 md:mt-32 px-6 py-4 md:px-12 md:py-6 shadow-[-12px_-12px_#F49F1E] md:shadow-[-20px_-20px_#F49F1E] lg:shadow-[-40px_-40px_#F49F1E]'>
             <h3 className='text-xl xl:text-3xl font-bold'>Notre Objectif</h3>
             <p className='text-base/7 xl:text-lg/9 text-justify'>est de vous offrir un service fluide et réactif, adapté à vos contraintes et à la complexité de vos projets. Avec DMC CONSULTING vous pouvez compter sur une gestion rigoureuse et une parfaite maîtrise des processus pour sécuriser vos approvisionnements industriels.</p>
         </div>
 
         
-        <img className='lg:h-[100vh] object-cover' loading="lazy" src="./img/produit_bas/26.png " alt="Industry inside" />
+        <img className='lg:h-[100vh] object-cover mt-6 md:mt-12 lg:mt-20' loading="lazy" src="./img/produit_bas/26.png " alt="Industry inside" />
 
         <div className='my-12'>
             <h3 className=' mx-6 mt-6 md:mx-16 lg:mx-28 2xl:mx-56 text-xl xl:text-3xl font-bold text-[#1C4179]'>Gestion de projets et commandes spéciales</h3>

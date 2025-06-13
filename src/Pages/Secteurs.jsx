@@ -89,21 +89,21 @@ export const Secteurs = () => {
               <div id='agro-alimentaire' className='cursor-pointer flex flex-col gap-2 justify-center items-center'>
                 <h3 className='text-[#F49F1E] text-lg xl:text-xl text-center w-full'>Agro-alimentaire</h3>
                 <Link onClick={() => handleOpen('agro')} to="#" className='px-6 py-2 inline-block text-[#F49F1E] font-bold border-2 xl:text-lg duration-75 hover:text-white'>Plus de détails</Link>
-                <img className='h-full' src="./img/Secteurs/51 1.png" alt="image Agro-alimentaire" />
+                <img className='h-[70vh] w-full' src="./img/Secteurs/51 1.png" alt="image Agro-alimentaire" />
               </div>
 
               {/* FOREST */}
               <div id='forestière' className='cursor-pointer flex flex-col gap-2 justify-center items-center'>
                 <h3 className='text-[#F49F1E] text-lg xl:text-xl text-center w-full'>Forestière</h3>
                 <Link onClick={() => handleOpen('forest')} to="#" className='px-6 py-2 inline-block text-[#F49F1E] font-bold border-2 xl:text-lg duration-75 hover:text-white'>Plus de détails</Link>
-                <img className='h-full' src="./img/Secteurs/pexels-photo-12278580 1.png" alt="image Forestière" />
+                <img className='h-[70vh] w-full' src="./img/Secteurs/pexels-photo-12278580 1.png" alt="image Forestière" />
               </div>
 
               {/* CONSTRUCTION */}
               <div id='construction' className='cursor-pointer flex flex-col gap-2 justify-center items-center'>
                 <h3 className='text-[#F49F1E] text-lg xl:text-xl text-center w-full'>Construction</h3>
                 <Link onClick={() => handleOpen('construction')} to="#" className='px-6 py-2 inline-block text-[#F49F1E] font-bold border-2 xl:text-lg duration-75 hover:text-white'>Plus de détails</Link>
-                <img className='h-full' src="./img/Secteurs/pexels-kawserhamid-176342.png" alt="image Construction" />
+                <img className='h-[70vh] w-full' src="./img/Secteurs/pexels-kawserhamid-176342.png" alt="image Construction" />
               </div>
             </div>
           </div>
