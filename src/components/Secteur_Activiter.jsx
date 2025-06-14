@@ -72,7 +72,7 @@ export const Secteur_Activiter = (props) => {
                 <h2 className='text-[#F49F1E] text-2xl xl:text-3xl font-black text-center uppercase w-full'>{props.title}</h2>
                 <Link onClick={() => handleOpen('construction')} className='px-6 py-2 inline-block text-[#F49F1E] duration-75 hover:text-white font-bold border-2 text-sm xl:text-lg'>Plus de détails</Link>
             </div>
-            <img className='h-[70vh] object-cover object-center md:h-auto' src={props.img} alt={props.img} />
+            <img className='h-[70vh] w-full object-cover object-center' src={props.img} alt={props.img} />
         </div>
 
 

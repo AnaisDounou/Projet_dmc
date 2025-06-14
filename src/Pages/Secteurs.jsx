@@ -36,7 +36,7 @@ const modalData = {
   },
   construction: {
     title: "Construction",
-    img: "./img/Secteurs/pexels-kawserhamid-176342.png",
+    img: "./img/Secteurs/pexels-kawserhamid-176342.jpg",
     items: [
       "Matériaux de construction",
       "Aciers, aciers spéciaux",
@@ -103,7 +103,7 @@ export const Secteurs = () => {
               <div id='construction' className='cursor-pointer flex flex-col gap-2 justify-center items-center'>
                 <h3 className='text-[#F49F1E] text-lg xl:text-xl text-center w-full'>Construction</h3>
                 <Link onClick={() => handleOpen('construction')} to="#" className='px-6 py-2 inline-block text-[#F49F1E] font-bold border-2 xl:text-lg duration-75 hover:text-white'>Plus de détails</Link>
-                <img className='h-[70vh] w-full' src="./img/Secteurs/pexels-kawserhamid-176342.png" alt="image Construction" />
+                <img className='h-[70vh] w-full object-cover' src="./img/Secteurs/pexels-kawserhamid-176342.jpg" alt="image Construction" />
               </div>
             </div>
           </div>

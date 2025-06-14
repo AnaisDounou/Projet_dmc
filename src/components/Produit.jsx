@@ -40,7 +40,7 @@ export const Produit = () => {
         </div>
 
         
-        <img className='lg:h-[100vh] object-cover mt-6 md:mt-12 lg:mt-20' loading="lazy" src="./img/produit_bas/26.png " alt="Industry inside" />
+        <img className='lg:h-[100vh] w-full object-cover mt-6 md:mt-12 lg:mt-20' loading="lazy" src="./img/produit_bas/26.png " alt="Industry inside" />
 
         <div className='my-12'>
             <h3 className=' mx-6 mt-6 md:mx-16 lg:mx-28 2xl:mx-56 text-xl xl:text-3xl font-bold text-[#1C4179]'>Gestion de projets et commandes spéciales</h3>
